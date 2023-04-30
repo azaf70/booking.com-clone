@@ -9,6 +9,10 @@ export default defineConfig({
         },
         watch: {
             usePolling: true,
+        },
+        https: {
+            key: './storage/app/server.key',
+            cert: './storage/app/server.crt',
         }
     },
     plugins: [
